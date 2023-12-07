@@ -1,0 +1,48 @@
+Task 1: Creating a data model
+
+Here is the background information on your task
+
+Today you are stepping into the role of a project analyst at Wells Fargo - an entry-level software developer on an investment management technology team. Your team is responsible for creating systems which help financial advisors practice business more efficiently. Your project manager has just announced that your team will begin development on a new system this week, just as the next sprint begins.
+
+The new system is intended to assist financial advisors in managing their customers' portfolios and will significantly improve the existing solution. The requirements for the new system were finalized this morning, and everything is in place to begin development. Before anyone writes a line of code, they will need a fleshed-out data model for the system. Your project manager has tasked you with figuring out what data the system needs to keep track of and how it should be structured.
+
+A data model defines how the data used by an application should be organized. It accounts for all of the entities in play and the relationships between them. A solid understanding of how data flows through a system is imperative to successful development. Furthermore, subtle design flaws in an application's data model can make the system difficult to work with. As such, it's essential to take time at this step to expand the design.
+
+There are many ways to visualize a data model, but in this task, we'll be focusing on entity relationship diagrams or ERDs. An ERD outlines the various entities involved in a system, their attributes, and how they relate to one another. ERDs are used when working with relational databases to determine what each table's column/row structure should look like. Since the system we are building uses a relational database under the hood, using an ERD makes sense in this context. If you would like to learn more about ERDS and how to create them, take a look at this guide.
+
+
+###########################################
+###########################################
+
+
+>>>>>Here is your task
+
+First, take a look at the following requirements for the new system. Your project manager passed them along with the data model ticket:
+
+>$ The system will help manage multiple financial advisors' clients. 
+
+>$ Financial advisors must be able to create, update, and remove clients.
+
+>$ Each financial advisor can have numerous clients.
+
+>$ Financial advisors will be using the system during standard business hours from 9 to 5 on weekdays.
+
+>$ Each client will have a portfolio.
+
+>$ Client portfolios may contain zero or more securities.
+
+>$ Financial advisors must be able to create, update, and remove securities from client portfolios.
+
+>$ Every security has a name, a category, a purchase date, a purchase price, and a quantity.
+
+>$ The system must have 99% uptime.
+
+>$ The system must expose a React dashboard.
+
+>$ The system's backend must use the Spring framework for Java.
+
+>$ The system must store data in a relational database.
+
+>$ The system must be highly scalable.
+
+With these requirements in mind, spend some time thinking about how the system will be structured. Who is going to interact with the system? What controls do they have for modifying the system's internal data? What data does the system need to keep track of? When you feel like you have a pretty good idea of what the system will feel like, draft an ERD which satisfies all of the above requirements. Note that some of the above conditions are relevant to this process, while others are not! Use your judgment to determine what data the system needs to track. There are many tools you can use to accomplish this, but we recommend Miro as a free, fully-featured offering.
